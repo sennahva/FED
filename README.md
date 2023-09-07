@@ -56,9 +56,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
-  Er zijn best wel een paar dingen op de dopper site die niet aan de WCAG checklist voldoen.Zo worden er helemaal geen ul- en li-elementen gebruikt over de hele site, zo worden er in de nav div-elementen gebruikt, en in de footer kan het ook een stuk logischer gemaakt worden door de li-elementen te gebruiken. Ook worden de header niet goed gebruikt op de dopper site. Er worden namelijk meerderen h1-elementen op een pagina gebruikt, en worden het h4-element overgeslagen. 
+  Er zijn best wel een paar dingen op de dopper site die niet aan de WCAG checklist voldoen. Zo worden er helemaal geen ul- en li-elementen gebruikt over de hele site, er worden bijvoorbeeld in de nav div-elementen gebruikt, en in de footer kan het ook een stuk logischer gemaakt worden door de li-elementen te gebruiken. Ook zijn de headers niet goed gebruikt op de dopper site, er worden namelijk meerderen h1-elementen op één pagina gebruikt, en word het h4-element overgeslagen. 
   
-  Als je tab gebruikt om door de website heen te gaan, moet je 2x klikken bij elke link, hij selecteerd volgendsmij namelijk elke keer de button en dan de div in de button. De appearance is ook niet geweldig, zo word dark and light mode niet ondersteund. Ook geen optie om de text te vergroten. En als laaste staat er bij sommige foto's geen alt text bij, en bij een klein aantal staat er wel een alt text maar staan er onnodige nummers tussen. 
+  Als je tab gebruikt om door de website heen te gaan, moet je 2x klikken bij elke link, hij selecteerd namelijk elke keer de button en dan de div binnen de button. De appearance is ook niet geweldig, zo word dark and light mode niet ondersteund. Ook geen optie om de text te vergroten. En als laaste staat er bij sommige foto's geen alt text bij, en bij een klein aantal staat er wel een alt text maar staan er onnodige nummers tussen. 
 
   voor de rest is de site wel goed, er is een hoog contrast en de content is goed. Alleen voor mensen met een screenreader of slecht zicht is de site denk lastig om te gebruiken. 
 </details>
