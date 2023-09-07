@@ -36,15 +36,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.reddit.com/
+  https://dopper.com/nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Reddit home 
-  <img src="readme-images/Screenshot_20230904_222137_Chrome.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/dopper_home.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Reddit post
-  <img src="readme-images/Screenshot_20230904_222942_Chrome.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/dopper_missie.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -58,6 +56,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  Er zijn best wel een paar dingen op de dopper site die niet aan de WCAG checklist voldoen.Zo worden er helemaal geen ul- en li-elementen gebruikt over de hele site, zo worden er in de nav div-elementen gebruikt, en in de footer kan het ook een stuk logischer gemaakt worden door de li-elementen te gebruiken. Ook worden de header niet goed gebruikt op de dopper site. Er worden namelijk meerderen h1-elementen op een pagina gebruikt, en worden het h4-element overgeslagen. 
+  
+  Als je tab gebruikt om door de website heen te gaan, moet je 2x klikken bij elke link, hij selecteerd volgendsmij namelijk elke keer de button en dan de div in de button. De appearance is ook niet geweldig, zo word dark and light mode niet ondersteund. Ook geen optie om de text te vergroten. En als laaste staat er bij sommige foto's geen alt text bij, en bij een klein aantal staat er wel een alt text maar staan er onnodige nummers tussen. 
+
+  voor de rest is de site wel goed, er is een hoog contrast en de content is goed. Alleen voor mensen met een screenreader of slecht zicht is de site denk lastig om te gebruiken. 
 </details>
 
 
