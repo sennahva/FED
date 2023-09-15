@@ -1,8 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Montserrat:wght@100&family=Noto+Sans+Display:wght@500;900&family=Open+Sans:wght@500&display=swap');
+
 /**************/
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
   box-sizing:border-box;  
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 
@@ -15,10 +67,17 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
-}
+	--color-primary: #1a3065;
+	--color-secondary: #ffffff;
+	--color-accent: #ffea80;
+	--color-background: #f4fdff;
 
+	--font-weight_text: 500;
+	--font-weight_header: 900;
+
+	--font-size_text: ;
+	--font-line_height: ;
+}
 
 
 
@@ -28,4 +87,180 @@
 /****************/
 
 /* jouw code */
+*{
+	font-family: 'Noto Sans Display', sans-serif;
+}
 
+nav img {
+	width: 10em;
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-primary);
+	text-transform: uppercase;
+	font-family: 'Noto Sans Display', sans-serif;
+}
+
+
+/* nav */
+nav:first-of-type button {
+	background: var(--color-accent);
+	padding: 0.2em;
+}
+
+nav:nth-of-type(2) {
+	background-color: var(--color-secondary);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	transform: translateX(100%);
+	transition: 0.35s;
+}
+
+nav:nth-of-type(2).nav_expended {
+	background-color: var(--color-secondary);
+	transform: translateX(0);
+	transition: 0.35s;
+}
+
+nav > ul > li:first-child a {
+	font-size: 2em;
+	font-weight: var(--font-weight_header);
+	text-transform: none;
+}
+
+nav button {
+	font-size: 2em;
+	padding: 0;
+	margin: 0;
+	background: none;
+	border: 0;
+	font-weight: var(--font-weight_header);
+	color: var(--color-primary);
+}
+
+
+
+nav > ul li ul {
+	display: none;
+}
+
+nav > ul li ul.show {
+	display: contents;
+}
+
+
+/* 3 delig sectie */
+.drie_blokken section {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 4em max-content;
+	gap: 1em;
+	padding: 2em 10% 2em 10%;
+	background-color: var(--color-background);
+}
+
+.drie_blokken section h2 {
+	grid-column: 1/2;
+	grid-row: 1/2;
+	font-weight: var(--font-weight_header);
+	color: var(--color-primary);
+	font-size: 3em;
+}
+
+.drie_blokken section h3 {
+	grid-column: 1/2;
+	grid-row: 1/2;
+	font-weight: var(--font-weight_header);
+	color: var(--color-primary);
+}
+
+.drie_blokken section img {
+	grid-column: 2/3;
+	grid-row: 1/2;
+	height: 100%;
+}
+
+.drie_blokken section p {
+	grid-column: 1/4;
+	grid-row: 2/3;
+}
+
+
+/* sectie tap water */
+.tap_water {
+	background-color: var(--color-primary); 
+	padding: 1em;
+}
+
+.tap_water img {
+	width: 100%;
+}
+
+.tap_water h2 {
+	color: var(--color-secondary);
+	font-weight: var(--font-weight_header);
+	font-size: 2em;
+}
+
+.tap_water p {
+	color: var(--color-secondary);
+	font-weight: var(--font-weight_text);
+	font-size: 1em;
+}
+
+.tap_water button {
+	color: var(--color-primary);
+	background: var(--color-secondary);
+	padding: 0.5em;
+	border-radius: 1.5em;
+	border: none;
+}
+
+.tap_water a {
+	color: var(--color-primary);
+	background: var(--color-secondary);
+	padding: 0.5em;
+	border-radius: 1.5em;
+}
+
+
+/* sectie create */
+.dopper-create section:nth-child(2), .dopper-create section:nth-child(3) {
+	display: grid;
+	grid-template: auto auto auto / 1fr 8fr 1fr;
+	gap: 1em;
+}
+
+.dopper-create section:nth-child(2) img, .dopper-create section:nth-child(3) img {
+	grid-area: 1/1/2/3;
+	width: 100%;
+	height: 100%;
+}
+
+.dopper-create section:nth-child(2) h2, .dopper-create section:nth-child(3) h2 {
+	grid-area: 2/2/3/3;
+	font-weight: var(--font-weight_header);
+	color: var(--color-primary);
+}
+
+.dopper-create section:nth-child(2) a, .dopper-create section:nth-child(3) a {
+	grid-area: 3/2/4/3;
+}
+
+
+/* dopper news splash */
+.dopper_news section {
+	display: flex;
+	width: 80%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.dopper_news section img {
+	width: 100%;
+}

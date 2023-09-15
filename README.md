@@ -90,6 +90,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Allebij de html pagina's maken ging best goed, nog een paar elementen waar ik nou niet goed weet of ik een header of text nodig heb.
+  En ik vroeg me vooral nog of ik de nav op de goede manier heb gemaakt. 
+
+  Ik heb wat grid gebruikt om een klein deel van de site goed te plaatsen, en dat ging eigenlijk erg goed, een geen problemen mee gehad. 
+  Wel wilde het nog niet helemaal lukken bij het maken van de for loop om gebruiken om meerdere elementen te selecteren, de for loop will ik namelijk gebruiken voor de dropdowns in de nav. 
+
+  ### mijn html voor de nav:
+  <img src="readme-images/nav_mijn_code.png>
+
+  ### mijn java script voor de nav: 
+  <img src="readme-images/>
+
+  ### hoe de nav eruit ziet op de Dopper site:
+  <img src="readme-images/nav_dopper.png>
+
+
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
