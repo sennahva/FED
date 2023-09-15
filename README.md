@@ -97,13 +97,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Wel wilde het nog niet helemaal lukken bij het maken van de for loop om gebruiken om meerdere elementen te selecteren, de for loop will ik namelijk gebruiken voor de dropdowns in de nav. 
 
   ### mijn html voor de nav:
-  <img src="readme-images/nav_mijn_code.png>
+  <img src="readme-images/nav_mijn_code.png" width="375px">
 
   ### mijn java script voor de nav: 
-  <img src="readme-images/>
+  <img src="readme-images/nav_mijn_java.png" width="375px">
 
   ### hoe de nav eruit ziet op de Dopper site:
-  <img src="readme-images/nav_dopper.png>
+  <img src="readme-images/nav_dopper.png" width="375px">
 
 
 
