@@ -121,10 +121,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - minder tot geen classes, en als je dan een class gebruik dan op de body.
+  - probeer geen divs en spans te gebruiken, echt als het niet meer kan.
+  - gebruik summary in plaats van javascript
+  - op de 3 cards plek kan je spans gebruiken in plaats van divs
 
 </details>
 
@@ -139,7 +139,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Iets dat deze week wel goed ging was de hele header eigenlijk, ik denk dat de navigatie nu aardig hetzelfde is als op de echte dopper site.het enige dat daarbij nog niet echt werkt is dat die transparant is als de site net inlaad. 
 
+  En iets dat wat minder ging was de nav in de footer, vooral die plusjes dan daar liep ik nog een beetje bij vast. Ik heb die gemaakt van spans en probeerde dan de verticale uit te zetten als die word uitgeklapt maar dat werkt dus nog niet. 
+
+  En kwam ik er niet helemaal uit hoe Dopper die soort snap heeft op de missie pagina, en weet ik ook niet hoe ik het best de achtergrond kan maken op de missie page.
+
+  ### nav bar niet transparant bij inladen:
+  <img src="readme-images/nav_niet_transparant.png.png" width="375px">
+
+  ### hoe de nav in de footer er nu uitziet:
+  <img src="readme-images/nav_footer.png" width="375px">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -158,6 +168,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - punt 2
   - nog een punt
 - ...
+
+vragen:
+  - Hoe moet het met de nav, moet ik de body niet weergeven of hoe anders?
 
 </details>
 
@@ -246,8 +259,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
+  1. https://www.freecodecamp.org/news/how-to-loop-through-an-array-in-javascript-js-iterate-tutorial/
+  2. https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit
   3. ...
 
 </details>
