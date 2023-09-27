@@ -145,6 +145,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   En kwam ik er niet helemaal uit hoe Dopper die soort snap heeft op de missie pagina, en weet ik ook niet hoe ik het best de achtergrond kan maken op de missie page.
 
+  nog iets met de toegankelijkheid
+
   ### nav bar niet transparant bij inladen:
   <img src="readme-images/nav_niet_transparant.png.png" width="375px">
 
@@ -164,10 +166,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - De nav bar moet ik omwisselen dus hij moet transparant beginnen, en dan wit worden als je naar beneden scrollt
+  - De backgournd op de missie kan gewoon een gradient zijn, en kan nog naar parralax scrollen kijken bij extra tijd
+  - de Dopper zelf kan ik met de css perspective proberen te inplementeren
+  - en de foto / afb in de ronde vormen kun je met css clip path doen
+  - En in de sections kan ik het best een article of header boven aan zetten die je niet kan zien. 
+  - het 'blop' effect op de buttons is ook te doen, moet ik dan wel opzoeken, is meer een punt voor extra tijd. 
+  - kan een if gebruiken voor maar één java script file
+
+  https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
+  https://developer.mozilla.org/en-US/docs/Web/CSS/perspective
+  https://codebeautify.org/css-beautify-minify
 
 vragen:
   - Hoe moet het met de nav, moet ik de body niet weergeven of hoe anders?
