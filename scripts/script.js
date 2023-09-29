@@ -43,14 +43,23 @@ window.addEventListener('scroll', () => {
 })
 
 const dopper = document.getElementById("dopper");
+
+window.addEventListener('scroll', () => {
+    var value = window.scrollY * 0.1; 
+    dopper.style.transform = "rotate(1deg)" * value;
+    console.log(value);
+})
+
+
+/* het draaien van de dopper */
+/* const dopper = document.getElementById("dopper");
+
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
-        /* entry.target.classList.toggle("test", entry.isIntersecting); */
         if(entry.isIntersecting) {
             dopper.style.transform = "rotate(10deg)";
         }
     }) 
 });
 
-/* het draaien van de dopper */
-observer.observe(dopper);
+observer.observe(dopper); */

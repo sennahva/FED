@@ -195,6 +195,22 @@ vragen:
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  - de buttons zijn nu gewoon één tabje inplaats van twee
+  - alle links doen het opzich goed, behalve de inline link
+  - de nav werkt nog niet goed, hij zou eigenlijk gewoon de nav overmoeten slaan, of uitklappen als je er door heen tabt
+  - de span in de a onderaan de homepage leest de screen reader niet voor
+  - heading bij persoonlijke dopper moet h3 worden, onerste 2
+  - de alt bij de nl kan beter
+  - de tab blijft hangen op de video image, en de image boven aan de page = 'groep'
+  - de input is niet heel duidleijk
+  - en de links onderaan de kopjes bij newslpsh zijn op zichzelf niet heel duidelijk
+  - het logo en de nav button kan beter
+  - kan nog skip link
+
+  - anchor link werk niet
+  - buttons zijn vrij goed
+  - 
+
 </details>
 
 
