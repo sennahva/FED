@@ -256,19 +256,24 @@ vragen:
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/gioied.png" width="375px" alt="uitomst opdracht 1">
+  De nav bar en footer maken ging goed, en vind ik zelf er goed gelukt. Ook denk ik dat de site nu aardig resposive is, niet perfect maar goed opweg.
+
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/inter.png.jpg" width="375px" alt="top">
+  <img src="readme-images/geleerd.png.png.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/buttons.png.jpg" width="375px" alt="bummer">
+  <img src="readme-images/video.png.jpg" width="375px" alt="bummer">
+  <img src="readme-images/inter.png.jpg" width="375px" alt="top">
+  en dan vooral het perspective
+  
 </details>
 
 
